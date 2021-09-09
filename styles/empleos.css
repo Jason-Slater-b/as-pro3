@@ -1,0 +1,209 @@
+body{
+    background: url(../img/formulario.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.contenido{
+    margin-left: 350px;
+    font-family: 'Times New Roman', Times, serif
+}
+.buscar{
+    height: 45px;
+    width: 850px;
+    border-radius: 9px;
+    text-align: center;
+    border-color: black;
+    border-width: 3px;
+    box-shadow: 5px 4px 4px black;
+   
+}
+.buscar:hover{
+    box-shadow: 3px 2px 2px black;
+    background-color:#c0c0c0;
+    opacity: 50%;
+}
+.found{
+    width: 90px;
+    height: 50px;
+    background-color:#1e90ff;
+    border-radius: 5px;
+    margin-left: 25px;
+    box-shadow: 5px 4px 4px black;
+}
+.found:hover{
+    box-shadow: 3px 2px 2px black;
+    background-color: #00bfff;
+    color: black;
+}
+
+fieldset{
+    margin-top: 25px;
+    width: 75%;
+    height: 100px;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 5px 4px 4px black;
+    background-color:#f8f8ff;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.em5{
+    margin-top: 25px;
+    width: 75%;
+    height: 100px;
+    border-width: 5px;
+    border-color: black;
+}
+.detal{
+    margin-left: 650px;
+    margin-top: -45px;
+
+}
+.aplic{
+    margin-left: 750px;
+    margin-top: -35px;
+}
+.detal3{
+    margin-left: 650px;
+    margin-top: -10px;
+
+}
+.aplic3{
+    margin-left: 750px;
+    margin-top: -35px;
+}
+.detalle{
+    width: 85px;
+    height: 35px;
+    background-color:#ffa500 ;
+    box-shadow: 4px 3px 3px black;
+}
+.detalle:hover{
+    background-color: #ff7f50;
+    box-shadow: 3px 2px 2px black;
+}
+.Aplicar{
+    width: 85px;
+    height: 35px;
+    background-color: #7fffd4;
+    border-color: black;
+    box-shadow: 4px 3px 3px black;
+}
+.Aplicar:hover{
+    background-color: #00ffff;
+    box-shadow: 3px 2px 2px black;
+}
+legend{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.filtro{
+    margin-top: -530px;
+    margin-left: 15px;
+    width: 290px;
+    height: 100px;
+    padding: 10px;
+    padding-left: 25px;
+    border-width: 25px;
+    border-color: black;
+    background-color:#dcdcdc;
+    box-shadow: 5px 4px 4px black;
+    opacity: 85%;
+}
+.departamento{
+    margin-top: 25px;
+    margin-left:15px;
+    width: 290px;
+    height: 100px;
+    padding: 10px;
+    padding-left: 25px;
+    border-width: 25px;
+    border-color: black;
+    background-color:#dcdcdc;
+    box-shadow: 5px 4px 4px black;
+    opacity: 85%;
+}
+.paginacion {
+	margin:20px 0;
+    margin-top: 350px;
+}
+
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background:#024959;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover {
+	background:#037E8C;
+}
+
+.paginacion ul li .active {
+	background:#037E8C;
+	font-weight:bold;
+}
+
+.rep{
+    margin-left: 350px;   
+    width: 800px;
+    height: 500px;
+    margin-top: 100px;
+}
+.reporte1{
+    width: 350px;
+    height: 360px;
+    margin-left: 200px;
+    padding: 30px;
+    padding-left: 50px;
+    font-size: 25pt;
+    background-color: black;
+    color: white;
+    opacity: 85%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#idempleo{
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px 1px #00ffff;
+}
+#idempleo:hover{
+    box-shadow: 1px 1px 1px 1px #1e90ff;
+}
+
+button{
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #1e90ff;
+    box-shadow: 2px 1px 1px 1px #00ffff;
+}
+#fecha{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #00ffff;
+}
+#fecha:hover{
+    box-shadow: 1px 1px 1px 1px #1e90ff;
+}
+
+button:hover{
+    background-color: #00bfff;
+    box-shadow: 1px 1px 1px 1px #1e90ff;
+}

@@ -1,0 +1,64 @@
+body{
+    background: url(../img/formulario.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.formulary{
+    margin-left: 500px;
+    margin-right: 360px;
+    height: 550px;
+    width: 600px;
+    padding: 30px 25px 25px 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    
+}
+
+.formulario{
+    width: 500px;
+    height: 45px;
+    border-radius: 5px;
+    padding: 12px;
+    color: black;
+    box-shadow: 5px 4px 4px black;
+    border-color:blue;
+    opacity: 88%;
+    
+}
+.formulario:hover{
+    background-color: lightgray;
+    border-color: black;
+}
+
+.button{
+    height: 45px;
+    width: 350px;
+    margin-left: 75px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color:dodgerblue;
+    box-shadow: 5px 4px 4px black ;
+    border-color: blue;
+}
+.button:hover{
+    background-color: lightskyblue;
+    box-shadow: 2px 2px 2px black ;
+    border-color: black;
+}
+
+.form1{
+    margin-top: 20px;
+    
+}
+.form2{
+    margin-top: 20px;
+}
+.form3{
+    margin-top: 20px;
+}
+.form4{
+    margin-top: 20px;
+}
+.form5{
+    margin-top: 20px;
+}

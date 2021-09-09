@@ -320,3 +320,14 @@ td {border-style: solid;
 	background:#80b438;
 	
   }
+
+  #mg{
+	  width: 400px;
+	  height: 450px;
+  }
+  .teclado{
+	  width: 1400px;
+	  margin-left: 75px;
+	  margin-top: 25px;
+  }
+

@@ -21,6 +21,25 @@ function main () {
 	$('.submenu').click(function(){
 		$(this).children('.children').slideToggle();
 	});
+	$('body').on("keydown", function (e) {
+		if (e.altKey && e.which === 71) {
+			location.href = "ConsultaEmpleaado.html";
+			e.preventDefault();
+		}
+	});
+	
+	$('body').on("keydown", function (e) {
+		if (e.altKey && e.which == 72) {
+			location.href = "informe.html";
+			e.preventDefault();
+		}
+	});
+	$('body').on("keydown", function (e) {
+		if (e.altKey && e.which == 73) {
+			location.href = "consultaEmpleo.html";
+			e.preventDefault();
+		}
+	});
 
 	$('body').on("keydown", function(e) { 
 		if (e.altKey && e.which === 74) {
@@ -36,7 +55,5 @@ function main () {
 			e.preventDefault();
 		}
 	});
-	$("#button").on("click", function(e) { 
-		alert("You clicked button");
-	});
+	
 }
