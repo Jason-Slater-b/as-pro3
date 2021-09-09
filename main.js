@@ -21,4 +21,22 @@ function main () {
 	$('.submenu').click(function(){
 		$(this).children('.children').slideToggle();
 	});
+
+	$('body').on("keydown", function(e) { 
+		if (e.altKey && e.which === 74) {
+			location.href = "agregar_vacante.html"
+			e.preventDefault();
+		}
+		if (e.altKey && e.which === 75) {
+			location.href = "consultar_patrones.html"
+			e.preventDefault();
+		}
+		if (e.altKey && e.which === 76) {
+			location.href = "modificar_vacante.html"
+			e.preventDefault();
+		}
+	});
+	$("#button").on("click", function(e) { 
+		alert("You clicked button");
+	});
 }
