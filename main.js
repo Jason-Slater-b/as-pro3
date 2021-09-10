@@ -24,20 +24,20 @@ function main () {
 	});
 	$('body').on("keydown", function (e) {
 		if (e.altKey && e.which === 71) {
-			location.href = "ConsultaEmpleaado.html";
+			location.href = "consulta_empleados.html";
 			e.preventDefault();
 		}
 	});
 	
 	$('body').on("keydown", function (e) {
 		if (e.altKey && e.which == 72) {
-			location.href = "informe.html";
+			location.href = "imprimir_coincidencia.html";
 			e.preventDefault();
 		}
 	});
 	$('body').on("keydown", function (e) {
 		if (e.altKey && e.which == 73) {
-			location.href = "consultaEmpleo.html";
+			location.href = "consulta_empleos.html";
 			e.preventDefault();
 		}
 	});

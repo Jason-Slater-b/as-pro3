@@ -4,7 +4,8 @@ body{
 }
 .contenido{
     margin-left: 350px;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+  width: 1000px;
 }
 .buscar{
     height: 45px;
@@ -37,8 +38,7 @@ body{
 
 fieldset{
     margin-top: 25px;
-    width: 75%;
-    height: 100px;
+    height: 125px;
     border-width: 2px;
     border-color: black;
     box-shadow: 5px 4px 4px black;
@@ -46,13 +46,7 @@ fieldset{
     padding-left: 10px;
     padding-top: 3px;
 }
-.em5{
-    margin-top: 25px;
-    width: 75%;
-    height: 100px;
-    border-width: 5px;
-    border-color: black;
-}
+
 .detal{
     margin-left: 650px;
     margin-top: -45px;
@@ -103,7 +97,7 @@ p{
     margin-top: -530px;
     margin-left: 15px;
     width: 290px;
-    height: 100px;
+    height: 125px;
     padding: 10px;
     padding-left: 25px;
     border-width: 25px;
@@ -116,7 +110,7 @@ p{
     margin-top: 25px;
     margin-left:15px;
     width: 290px;
-    height: 100px;
+    height: 125px;
     padding: 10px;
     padding-left: 25px;
     border-width: 25px;
