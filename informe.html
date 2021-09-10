@@ -1,18 +1,20 @@
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Agencia de Reclutamiento</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="styles/main.css">
-	<link rel="stylesheet" href="styles/main.css">
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="main.js"></script>
+    <meta charset="UTF-8">
+    <title>Informe</title>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="styles/empleos.css">
 </head>
 
-<header>
+<body>
+    <script src="main.js"></script>
+  <header>
     <div class="menu_bar">
         <a href="#" class="bt-menu"><span class="icon-list2"></span>Agencia de Reclutamientos</a>
     </div>
@@ -32,7 +34,7 @@
                     <li><a href="ConsultaEmpleaado.html">7. Consulta de Empleados <span class="icon-dot"></span></a></li>
                     <li><a href="informe.html">8. Imprimir Informe de Coincidencias Exitosas <span class="icon-dot"></span></a></li>
                     <li><a href="consultaEmpleo.html">9. Consulta de Empleos <span class="icon-dot"></span></a></li>
-                    <li><a href="agregar_vacante.html">10. Agregar Vacante <span class="icon-dot"></span></a></li>
+                   <li><a href="agregar_vacante.html">10. Agregar Vacante <span class="icon-dot"></span></a></li>
                     <li><a href="consultar_patrones.html">11. Consulta de Patrones <span class="icon-dot"></span></a></li>
                     <li><a href="modificar_vacante.html">12. Modificar Vacante <span class="icon-dot"></span></a></li>
                     <li><a href="agregar_patron.html">13. Agregar Patrón <span class="icon-dot"></span></a></li>
@@ -44,55 +46,23 @@
         </ul>
     </nav>
 </header>
+    <div class="rep">
+        <div class="reporte1">
+    <label for="">Id De Empleo</label>
+    <input type="text" name="idEmpleo" id="idempleo">
+    <br>
+    <button type="button" name="reporte" class="reporte">generar Reporte</button>
+   <br>
+   <br>
+    <label for=""> Fecha de empleos</label>
+    <br>
+    <input type="date" name="fecha" id="fecha">
+    <button type="button" name="reporte" class="reporte">Generar Reporte</button>
+</div>
 
-<body>
-
-    <center>
-    <table id="mitabla">
-
-        <thead class="cabecera">
-        <tr class="rojo">
-        <td class="bajo">  <center> Carnet </center> </td>
-        <td class="medio"> <center>Nombre </center> </td>
-        </tr>
-        </thead>
-        
-        <tbody class="cuerpo">
-        <tr>
-        <td class="a"> 5390-18-6502 </td>
-        <td class="b"> Dennys Emmanuel Tezén Guerra </td>
-        </tr>
-        
-        <tr>
-        <td class="a">  5390-18-5520 </td>
-        <td class="b"> Kevin Hermilo Espinoza Sandoval </td>
-        </tr>
-
-        <tr>
-            <td class="a">  5390-18-3691 </td>
-            <td class="b"> Jason Slater Barreno Díaz </td>
-        </tr>
-
-        <tr>
-            <td class="a">  5390-18-10587 </td>
-            <td class="b"> Fredy Estuardo Reyes Del Cid </td>
-        </tr>
-
-        <tr>
-            <td class="a">  5390-18-18331 </td>
-            <td class="b"> Carlos Roberto Blanco Osoy </td>
-        </tr>
+</div>
 
 
-        
-        </tbody>
-        <tfoot class="pie">
-        <tr>
-        <td class="aaa" colspan="2"> Universidad Mariano Gálvez de Guatemala </td>
-        </tr>
-        </tfoot>
-        
-        </table></center>
 </body>
 
 </html>
